@@ -13,11 +13,11 @@
 }
 
 body {
-    background-color:rgb(34, 34, 34);
+    background-color: black;
+    margin: 0px 100px 0px 100px;
 }
 
 header {
-    background-color: lightslategray;
     min-height: 150px;
 }
 
@@ -33,21 +33,21 @@ nav {
     color: white;
     font-size: 1.4em;
     padding: 10px;
-    background-color:  rgb(34, 34, 34);
+}
+
+nav h2 {
+    text-align: center;
 }
 
 main img {
-    max-width: 100px;
+    padding: 50px;
+    max-width: 182px;
     display: block;
-}
-
-main > div > img {
-    padding: 10px;
-    margin: 60px 0px;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 main img:hover {
@@ -55,13 +55,11 @@ main img:hover {
 }
 
 main {
-    background-color: rgb(34, 34, 34);
     min-width: 300px;
-    max-width: 1000;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
-    box-shadow: rgb(34, 34, 34);
+    
 }
 
 main p {
@@ -112,8 +110,7 @@ main strong {
 
 footer {
     color: white;
-    background-color: rgb(34, 34, 34);
     padding: 5px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
