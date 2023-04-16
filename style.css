@@ -110,7 +110,7 @@ main strong {
 
 footer {
     color: white;
-    padding: 5px;
     text-align: center;
     font-size: 1em;
+    background-color: rgba(68, 66, 66, 0.432);
 }
